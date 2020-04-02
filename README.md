@@ -1,6 +1,10 @@
 python-coursera
 ===============
 
+Autor: Marcio Woitek
+
+E-mail: [woitek@usp.br](mailto:woitek@usp.br)
+
 Descrição
 ---------
 
@@ -15,3 +19,17 @@ Este repositório contém o que produzi quando fiz o curso acima.
 Obviamente, isso inclui o código que
 corresponde às soluções para os problemas de programação.
 Mas aqui também estão os módulos que implementei para testar essas soluções.
+Se você quiser rodar esses módulos, vai precisar
+ter o pytest instalado na sua máquina.
+
+Conteúdo Organizado
+-------------------
+
+No momento, o conteúdo deste repositório não está tão organizado quanto eu gostaria.
+Então a minha intenção é organizar tudo aos poucos.
+Os arquivos que estão na sua versão final estão listados abaixo.
+
+1. Parte 1
+  * Nada.
+2. Parte 2
+  * Nada.
