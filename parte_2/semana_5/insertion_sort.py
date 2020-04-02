@@ -22,15 +22,15 @@
 #
 
 """
-Implementação do algoritmo de ordenação BUBBLE SORT.
+Implementação do algoritmo de ordenação INSERTION SORT.
 """
 
 
-def bubble_sort(lista):
+def insertion_sort(lista):
     """
 
     Função que ordena uma lista de números inteiros
-    usando o algoritmo de ordenação BUBBLE SORT.
+    usando o algoritmo de ordenação INSERTION SORT.
 
     Argumento:
       lista: Lista que desejamos ordenar.
@@ -41,16 +41,18 @@ def bubble_sort(lista):
 
     """
 
-    n = len(lista)
-    while n > 1:
-        novo_n = 0
-        for i in range(1, n):
-            if lista[i - 1] > lista[i]:
-                lista[i - 1], lista[i] = lista[i], lista[i - 1]
-                novo_n = i
-                # O comando abaixo não é parte do algoritmo.
-                # Ele só foi adicionado porque o enunciado do problema pede.
-                print(lista)
-        n = novo_n
+    i = 1
+
+    while i < len(lista):
+
+        temp = lista[i]
+        j = i - 1
+
+        while ((j >= 0) and (lista[j] > temp)):
+            lista[j + 1] = lista[j]
+            j -= 1
+
+        lista[j + 1] = temp
+        i += 1
 
     return lista
