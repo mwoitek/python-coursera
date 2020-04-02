@@ -30,6 +30,6 @@ Então a minha intenção é organizar tudo aos poucos.
 Os arquivos que estão na sua versão final estão listados abaixo.
 
 1. Parte 1
-  * Nada.
+..* Nada.
 2. Parte 2
-  * Nada.
+..* Nada.
