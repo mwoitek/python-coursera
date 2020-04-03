@@ -32,10 +32,15 @@ Os arquivos que estão na sua versão final estão listados abaixo.
 1. Parte 1
   * Nada.
 2. Parte 2
+  * Semana 4:
+    * (03-04-2020) Adicionei as soluções para os dois **problemas obrigatórios**
+    (Problema de *determinar se uma lista está ordenada* e
+    implementação do algoritmo de *busca sequencial*).
+    * (03-04-2020) Adicionei os módulos para testar as soluções para os problemas obrigatórios.
   * Semana 5:
-    * (02-04-2020) Adicionei as soluções para os dois problemas obrigatórios
-    (Implementação do algoritmo de busca binária e do algoritmo de ordenação bubble sort).
-    * (02-04-2020) Adicionei a solução para o problema opcional
-    (Implementação do algoritmo de ordenação insertion sort).
+    * (02-04-2020) Adicionei as soluções para os dois **problemas obrigatórios**
+    (Implementação do algoritmo de *busca binária* e do algoritmo de ordenação *bubble sort*).
+    * (02-04-2020) Adicionei a solução para o **problema opcional**
+    (Implementação do algoritmo de ordenação *insertion sort*).
     * (02-04-2020) Adicionei os módulos para testar as soluções para os problemas obrigatórios.
     * (02-04-2020) Adicionei o módulo para testar a solução para o problema opcional.
