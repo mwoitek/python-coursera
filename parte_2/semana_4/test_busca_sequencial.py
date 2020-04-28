@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 #
 #
 #
@@ -31,6 +30,7 @@ import busca_sequencial as bs
 
 
 def um_algoritmo(funcao):
+
     assert funcao(["a", "e", "i"], "a") == 0
     assert funcao(["a", "e", "i"], "e") == 1
     assert funcao(["a", "e", "i"], "i") == 2
@@ -44,9 +44,12 @@ def um_algoritmo(funcao):
 
 
 def test_busca_sequencial():
-    # Testa a 1ª versão do algoritmo:
+
+    # Testa a 1ª versão do algoritmo.
     um_algoritmo(bs.busca)
-    # Testa a 2ª versão do algoritmo:
+
+    # Testa a 2ª versão do algoritmo.
     um_algoritmo(bs.busca_sentinela)
-    # Testa a 3ª versão do algoritmo:
+
+    # Testa a 3ª versão do algoritmo.
     um_algoritmo(bs.busca_ordem)
