@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 #
 #
 #
@@ -22,7 +21,7 @@
 #
 
 """
-Solução para um dos problemas obrigatórios da semana 4.
+Solução para o primeiro problema obrigatório da semana 4.
 """
 
 
@@ -35,8 +34,8 @@ def ordenada(lista):
       lista: Lista de números inteiros.
 
     Retorna:
-      Quando a lista especificada está ordenada, a função devolve True.
-      Do contrário, ela retorna False.
+      Quando a lista especificada está ordenada, a função devolve True. Do
+      contrário, ela retorna False.
 
     """
 
@@ -46,7 +45,7 @@ def ordenada(lista):
     em_ordem = True
 
     i = 0
-    while (em_ordem and (i < tam - 1)):
+    while em_ordem and i < tam - 1:
         for j in range(i + 1, tam):
             # Verifica se os elementos da lista estão em ORDEM CRESCENTE.
             if lista[i] > lista[j]:

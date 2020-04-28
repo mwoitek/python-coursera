@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 #
 #
 #
@@ -22,8 +21,8 @@
 #
 
 """
-Módulo para testar a solução para o
-problema de determinar se uma lista está ordenada.
+Módulo para testar a solução para o problema de determinar se uma lista está
+ordenada.
 """
 
 
@@ -32,6 +31,7 @@ import lista_ordenada as lo
 
 
 def test_lista_ordenada():
+
     assert lo.ordenada([1, 2, 3, 4, 9]) == True
     assert lo.ordenada([1, 2, 3, 4, 0]) == False
     assert lo.ordenada([1, 3, 5, 7, 9]) == True
